@@ -1,0 +1,120 @@
+body{
+    background-color: grey;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;u
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: coral;
+    color: white;
+}
+
+#navbar{
+    background-color: rgb(43, 41, 41);
+    color:  white;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#navbar a:hover{
+    color: red;
+}
+
+#navbar a:active{
+    color: green;
+}
+
+#showcase{
+    background-image:url("light.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#button{
+    background-color: white;
+}
+
+#button h3 a{
+    color: black;
+    text-decoration: none;
+}
+
+#button h3 a:hover{
+    background-color: tomato;
+    color: green;
+}
+
+#button h3 a:active{
+    color: red;
+}
+
+#showcase h1{
+    color: white;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    border: 1px solid brown;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background: #333333;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-footer{
+    background: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
